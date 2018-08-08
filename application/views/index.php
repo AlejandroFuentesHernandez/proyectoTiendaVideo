@@ -4,17 +4,6 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
     <title></title>
-
-    <!--<style type="text/css">
-  body {
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: purple;
-    background-color: #d8da3d }
-     h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
-  </style>-->
 </head>
 
 <body style="padding: 20px">
