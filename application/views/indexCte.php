@@ -23,6 +23,10 @@
                 <input type="text" name="numero_nit">
              </div><br>
              <div align="center">
+                <label>Telefono:</label>
+                <input type="text" name="telefono_cliente">
+             </div><br>
+             <div align="center">
                 <input type='submit' value='Iniciar Sesion'>
              </div>
              </form>
