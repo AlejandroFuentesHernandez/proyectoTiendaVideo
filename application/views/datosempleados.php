@@ -6,10 +6,14 @@
 </head>
 <body>
 	<form action="" method="POST">
+	<label for="numeroempleado">Numero Empleado:</label>
+		<input type="text" name="numeroempleado" placeholder="Digite numero empleado"><br><br>
 	<label for="nombreusuario">Nombre:</label>
 		<input type="text" name="nombreusuario" placeholder="Digite nombre"><br><br>
 	<label for="apellidosusuario">Apellidos:</label>
 		<input type="text" name="apellidos" placeholder="Digite apellidos"><br><br>
+	<label for="duiempleado">DUI Empleado</label>
+		<input type="text" name="duiempleado" placeholder="Digite Dui"><br><br>
 	<label for="direccion">Direccion:</label>
 		<input type="text" name="direccion" placeholder="Digite direccion"><br><br>
 	<label for="Cargo">Cargo:</label>
