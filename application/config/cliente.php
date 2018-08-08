@@ -4,10 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Cliente extends CI_Controller {
 
 	
-	public function index()
+	public function indexCte()
 	{
         $this->load->helper('url');
-		$this->load->view('index');
+		$this->load->view('indexCte');
 	}
         
         public function InicioCliente()
@@ -35,7 +35,7 @@ class Cliente extends CI_Controller {
 		}
 		else
 		{
-			$this->index();
+			$this->indexCte();
 		}
 
 		//$this->load->view('mensaje');
