@@ -11,15 +11,7 @@
 	<label for="apellidosusuario">Apellidos:</label>
 		<input type="text" name="apellidos" placeholder="Digite apellidos"><br><br>
 	<label for="direccion">Direccion</label>
-		<input type="text" name=""
-		
-		
-		
-		
-		
-		
-		
-		
+		<input type="text" name="direccion"><br><br>
 		<input type="submit" name="ingresar" value="Ingresar">
 </body>
 </html>
