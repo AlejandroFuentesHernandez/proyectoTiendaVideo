@@ -14,7 +14,7 @@
              </div>
              <div align="center">
                 <label>Nombre de juego:</label>
-                <input type="text" name="juego:" placeholder="">
+                <input type="text" name="juego">
              </div><br>
              <div align="center">
                 <label>Codigo de juego:</label>
