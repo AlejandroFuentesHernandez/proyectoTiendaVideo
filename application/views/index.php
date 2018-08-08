@@ -19,7 +19,7 @@
 
 <body style="padding: 20px">
    <fieldset>
-            <form  action="<?php echo site_url(); ?>/Login/InicioSesion" method="POST"  >
+            <form  action="<?php echo site_url(); ?>/Local/InicioSesion" method="POST"  >
              <div align="center">
                 <font color="orange"><h1>Registro de compras</h1></font>
              </div>
