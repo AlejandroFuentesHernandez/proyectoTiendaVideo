@@ -8,18 +8,19 @@ class Proveedores extends CI_Controller{
 		$this->load->view('indexProv');
 	}
 	public function InicioProveedor(){
-		$this->load-helper('url');//instaciamos url's dinamicos
+		$this->load->helper('url');//instaciamos url's dinamicos
 		//recperamos datos del formulario
-		$Nombreproveedor=$this->input->POST('Nombreproveedor');
-		$tipodempresa=$this->input->POST('$tipodempresa');
-		$representante=$this->input->POST('$representante');
-		$tipocontacto=$this->input->POST('tipocontacto');
+		$Nombre_empresa=$this->input->POST('Nombre_empresa');
+		$tipo_empresa=$this->input->POST('$tipo_empresa');
+		$representante_empresa=$this->input->POST('$representante_empresa');
+		$contacto_proveedor=$this->input->POST('contacto_proveedor');
 		//-------------------------------------------------
 		//Llamamos al modelo
 		$this->load->model('Proveedores_model','PM',true);
-		$data=array('Nombreproveedor'=>$Nombreproveedor,
-			'tipodempresa'=>$representante,
-			'tipocontacto'=>$tipocontacto,
+		$data=array('Nombre_empresa'=>$Nombre_empresa,
+			'tipo_empresa'=>$tipo_empresa,
+			'representante_empresa'=>$representante_empresa,
+			'contacto_proveedor'=>$contacto_proveedor,
 		);
 		//utilizamos metodo del modelo
 		$resultado=$this->PM->insertarProveedores($data);
@@ -31,5 +32,7 @@ class Proveedores extends CI_Controller{
 		}
 		//$this->load->view('mensaje_proveedor');
 	}
+
+	//
 }
 ?>
