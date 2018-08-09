@@ -4,10 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Cliente extends CI_Controller {
 
 	
-	public function indexCte()
+	public function frmCte()
 	{
         $this->load->helper('url');
-		$this->load->view('indexCte');
+		$this->load->view('frmCte');
 	}
         
         public function InicioCliente()

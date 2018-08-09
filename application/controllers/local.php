@@ -4,10 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Local extends CI_Controller {
 
 	
-	public function index()
+	public function frmCompra()
 	{
         $this->load->helper('url');
-		$this->load->view('index');
+		$this->load->view('frmCompra');
 	}
         
         public function InicioSesion()
