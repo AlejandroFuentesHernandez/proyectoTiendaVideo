@@ -5,7 +5,7 @@
 </head>	
 	<body style="padding: 20px">
 	<fieldset>
-	<form action="" metod="POST">
+	<form action="<?php echo site_url();?>/Proveedores/InicioProveedor" metod="POST">
 	<div align="center">
 	<font color="green"><h1></h1></font>
 	</div>
@@ -13,16 +13,16 @@
 	<label"Nombreproveedor">Nombre proveedor</label>
 	</div><br>
 	<div align="center">
-		<input type="text" name="Nombreproveedor" placeholder="Digite Nombre"></div><br><br>
+		<input type="text" name="Nombre_empresa" placeholder="Digite Nombre Empresa"></div><br><br>
 		<div align="center">
 	<label for="tipodempresa">Tipo de empresa</label>
-		<input type="text" name="tipodempresa" placeholder="Tipo de Empresa"></div><br><br>
+		<input type="text" name="tipo_empresa" placeholder="Tipo de Empresa"></div><br><br>
 		<div align="center">
 	<label for="representante">Representante</label>
-		<input type="text" name="representante" placeholder="Representante"></div><br><br>
+		<input type="text" name="representante_empresa" placeholder="Representante Empresa"></div><br><br>
 		<div align="center">
 	<label for="contacto">Telefono</label>
-		<input type="text" name="contacto" placeholder="Introdusca un numero telefono"></div>
+		<input type="text" name="contacto_proveedores" placeholder="Introdusca un numero telefono"></div>
 		<br><br>
 		<div align="center">
 		<input type="submit" name="enviar" value"Enviar">
