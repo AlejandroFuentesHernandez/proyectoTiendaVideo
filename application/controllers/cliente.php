@@ -31,7 +31,7 @@ class Cliente extends CI_Controller {
 		//Utilizamos metodo del modelo//
 		$resultado=$this->CM->insertarCliente($data);
 		if ($resultado==1) {
-            $this->load->view('mensaje_Proveedor');
+            $this->load->view('mensaje');
 		}
 		else
 		{
