@@ -4,10 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Cliente extends CI_Controller {
 
 	
-	public function frmCte()
+	public function formularioCte()
 	{
         $this->load->helper('url');
-		$this->load->view('frmCte');
+		$this->load->view('formularioCte');
 	}
         
         public function InicioCliente()
