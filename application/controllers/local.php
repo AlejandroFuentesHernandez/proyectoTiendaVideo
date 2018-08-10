@@ -10,7 +10,7 @@ class Local extends CI_Controller {
 		$this->load->view('index');
 	}
         
-        public function realizarCompra()
+        public function InicioCompra()
 	{
 		$this->load->helper('url'); //Instaciamos url's dinamicos//
 

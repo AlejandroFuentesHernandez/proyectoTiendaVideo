@@ -6,7 +6,7 @@
 
 <body style="padding: 20px">
    <fieldset>
-            <form  action="<?php echo site_url(); ?>/Local/InicioSesion" method="POST"  >
+            <form  action="<?php echo site_url(); ?>/Local/InicioCompra" method="POST"  >
              <div align="center">
                 <font color="orange"><h1>Registro de compras</h1></font>
              </div>

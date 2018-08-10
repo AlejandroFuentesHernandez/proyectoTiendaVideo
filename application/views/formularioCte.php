@@ -12,15 +12,15 @@
              </div>
              <div align="center">
                 <label>Nombre :</label>
-                <input type="text" name="nombre:" >
+                <input type="text" name="nombre_cliente" >
              </div><br>
              <div align="center">
                 <label>N° DUI:</label>
-                <input type="text" name="numero_dui">
+                <input type="text" name="numero_DUI">
              </div><br>
              <div align="center">
                 <label>N° NIT:</label>
-                <input type="text" name="numero_nit">
+                <input type="text" name="numero_NIT">
              </div><br>
              <div align="center">
                 <label>Telefono:</label>
