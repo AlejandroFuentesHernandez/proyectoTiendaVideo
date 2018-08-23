@@ -13,22 +13,22 @@
 	<label"Nombreproveedor">Nombre proveedor</label>
 	</div><br>
 	<div align="center">
-		<input type="text" name="Nombre_empresa" placeholder="Digite Nombre Empresa"></div><br><br>
+		<input type="text" id="nombre_empresa" name="Nombre_empresa"  onblur="" placeholder="Digite Nombre Empresa"></div><br><br>
 		<div align="center">
 	<label for="tipodempresa">Tipo de empresa</label>
-		<input type="text" name="tipo_empresa" placeholder="Tipo de Empresa"></div><br><br>
+		<input type="text"  id="tipo_empresa" name="tipo_empresa" onblur="" placeholder="Tipo de Empresa"></div><br><br>
 		<div align="center">
 	<label for="representante">Representante</label>
-		<input type="text" name="representante_empresa" placeholder="Representante Empresa"></div><br><br>
+		<input type="text" id="representante_empresa" name="representante_empresa" onblur="" placeholder="Representante Empresa"></div><br><br>
 		<div align="center">
 	<label for="contacto">Telefono</label>
-		<input type="text" name="contacto_proveedores" placeholder="Introdusca un numero telefono"></div>
+		<input type="text" id="contacto_proveedores"name="contacto_proveedores"  onblur="" placeholder="Introdusca un numero telefono"></div>
 		<br><br>
 		<div align="center">
-		<input type="submit" name="enviar" value"Enviar">
+		<button type="button" onclick="">Enviar</button>
 		</div>
 	</form>
 	</fieldset>
 	</body>
 </html>
-
+<script src="js/Scipt_proveedores.js"></script>
