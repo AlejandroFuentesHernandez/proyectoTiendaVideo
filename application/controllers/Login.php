@@ -19,7 +19,7 @@ public function index()
          $this->load->helper('url');//instanciamos url's dinamicos
          //recuperamos datos del formulario
          $user= $this->input->post('usuario');
-         $pass=md5($this->input->post('password'));
+         $pass=$this->input->post('password');
          //-----------------------------------------------
 
          $this->load->model('Login_model','LM', true);//llamamos al modelo
@@ -27,7 +27,7 @@ public function index()
          $resultado=$this->LM->verificarUsuario($user, $pass);//utilizamos metodo del modelo
 
 		if ($resultado==1) {
-         	$this->load->view('bootstrap');
+         	$this->load->view('boostrap');
 
          }
          else

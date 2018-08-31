@@ -3,7 +3,7 @@ define('BASEPATH') OR exit('No direct scrip access allowed');
 class Datosempleados extends CI_Controller{
 	public function indexDatempl(){
 		$this->load->helper('url');
-		$this->load->view('indexDatempl');
+		$this->load->view('formempleados');
 	}
 	public function InicioDatempl(){
 		$this->load->helper('url');//instaciamos url's dinamicos
