@@ -14,7 +14,7 @@ public function crear()
          $this->load->helper('url');//instanciamos url's dinamicos
          //recuperamos datos del formulario
          $newuser= $this->input->post('newusuario');
-         $newpass=md5($this->input->post('password'));
+         $newpass= $this->input->post('newpassword');
          
          //-----------------------------------------------
 
@@ -26,7 +26,7 @@ public function crear()
          $ingreso=$this->UM->nuevoUsuario($data);//utilizamos metodo del modelo
 
       if ($ingreso==1) {
-            $this->load->view('index');
+            $this->load->view('crear');
 
          }
          else

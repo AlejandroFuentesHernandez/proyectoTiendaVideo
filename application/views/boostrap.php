@@ -295,7 +295,7 @@
                             <a href="tables.html"><i class="fa fa-user fa-fw"></i> Empleados<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="<?php echo site_url(); ?>/datosempleados/Datosempleados">Ingresar Empleado</a>
+                                    <a href="<?php echo site_url(); ?>/Dtos_empleados/visual">Ingresar Empleado</a>
                                 </li>
                                 <li>
                                     <a href="morris.html">Datos Empleados</a>
@@ -303,29 +303,19 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                            <a href="<?php echo site_url(); ?>/proveedores/index"><i class="fa fa-shopping-cart fa"></i>Proveedores</a>
+                             
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Compras<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panels-wells.html">Panels and Wells</a>
+                                    <a href="<?php echo site_url(); ?>/Compra/index">Realizar Compra</a>
                                 </li>
                                 <li>
-                                    <a href="buttons.html">Buttons</a>
+                                    <a href="buttons.html"></a>
                                 </li>
-                                <li>
-                                    <a href="notifications.html">Notifications</a>
-                                </li>
-                                <li>
-                                    <a href="typography.html">Typography</a>
-                                </li>
-                                <li>
-                                    <a href="icons.html"> Icons</a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">Grid</a>
-                                </li>
+                               
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>

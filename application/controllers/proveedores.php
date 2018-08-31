@@ -9,12 +9,14 @@ class Proveedores extends CI_Controller
     
     public function __construct()
     {
+
        parent::__construct();  // Constructor del padre
        $this->load->model('proveedores_model', 'proveedores', TRUE); //Forma de como cargar el modelo para poder acceder a sus metodos, en el primer paramentro se pone el nombre del modelo, en el segundo se le esta asignando un nombre diferente al modelo y en el tercero se le pondra TRUE para que se conecte automaticamente a la base de datos 
     }
 
     public function index(){
     	//$this->load
+         $this->load->helper('url'); 
     	$proveedores= $this->proveedores->mostrar();
     	//$data['insertar']=""; 
     	$data['dproveedores']=$proveedores;  //enviamos la variable vacia, para que cuando le mandemos paramentros no me de el error de variable indefinida
@@ -23,7 +25,7 @@ class Proveedores extends CI_Controller
 
         public function Registrar_proveedores()
         {  //Obteniendo datos del formulario, los cuales los almacenaremos en una variable 
-
+$this->load->helper('url'); 
         	//$id_proveedores=$this->input->post('id_proveedor');
         	$nombre_empresa=$this->input->post('nombre_empresa');
         	$tipo_empresa=$this->input->post('tipo_empresa');
@@ -64,6 +66,7 @@ class Proveedores extends CI_Controller
 
         public function mostrar_proveedores()
         {
+            $this->load->helper('url'); 
         	$proveedores= $this->proveedores->mostrar(); 
         	$data['dproveedores']=$proveedores; 
         	$this->load->view('mostrarproveedores_view', $data); 
