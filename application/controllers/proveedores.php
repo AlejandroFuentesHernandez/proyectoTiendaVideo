@@ -31,7 +31,7 @@ $this->load->helper('url');
         	$tipo_empresa=$this->input->post('tipo_empresa');
         	$representante_empresa=$this->input->post('representante_empresa');
         	$contacto_proveedores=$this->input->post('contacto_proveedores');
-        	$estado_proveedores=$this->input->post('estado_proveedores'); 
+        	//$estado_proveedores=$this->input->post('estado_proveedores'); 
 
         	//mandamos los datos por medio de un array al modelo, cada elemento corresponde con una columna en la tabla Proveedores de la Base de datos, esto quiere decir que lo que esta al lado izquierdo serian dichas columnas y tendran el valor correspondiente de la informacion que se mande del formulario.
 				$data=array
@@ -41,7 +41,7 @@ $this->load->helper('url');
 					'tipo_empresa'=>$tipo_empresa,
 					'representante_empresa'=>$representante_empresa,
 					'contacto_proveedores'=>$contacto_proveedores, 
-					'estado_provedores'=>$estado_proveedores, 
+					 
 				); 
 
 				//mandamos a llamar un metodo de nuestro modelo, donde mandaremos como parametro el array. 

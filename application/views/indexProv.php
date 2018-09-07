@@ -5,7 +5,7 @@
 </head>	
 	<body style="padding: 20px">
 	<fieldset>
-	<form action="<?php echo site_url();?>/proveedores/Registrar_proveedores" metod="POST">
+	<form action="<?php echo site_url();?>/<Proveedores/Registrar_proveedores" metod="POST">
 	<div align="center">
 	<font color="green"><h1></h1></font>
 	</div>
